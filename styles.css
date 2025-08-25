@@ -2,12 +2,12 @@
 
 /* Root colors */
 :root {
-  --primary-color: #a855f7;
-  --primary-gradient: linear-gradient(90deg, #a855f7, #9333ea);
-  --secondary-color: #ca8a04;
+  --primary-color: #d207d2;
+  --primary-gradient: linear-gradient(90deg, #0339ad, #0339ad);
+  --secondary-color: #ca0404;
   --text-dark: #1f2937;
   --text-light: #6b7280;
-  --extra-light: #faf5ff;
+  --extra-light: #a6e4ece8;
   --max-width: 1200px;
   --transition-speed: 0.4s;
 }
@@ -110,25 +110,25 @@ h2::after {
 
 .hire__me {
   background: var(--primary-color);
-  color: #fff;
+  color: #0059ff;
 }
 
 .hire__me:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(168, 85, 247, 0.4);
+  box-shadow: 0 10px 20px rgba(0, 11, 216, 0.916);
 }
 
 .download__cv {
-  background: #fff;
+  background: #032481;
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
 }
 
 .download__cv:hover {
   background: var(--primary-color);
-  color: #fff;
+  color: #73e9fc;
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(168, 85, 247, 0.4);
+  box-shadow: 0 10px 20px rgba(4, 170, 189, 0.4);
 }
 
 /* Hero Image */
@@ -159,10 +159,10 @@ h2::after {
 }
 
 .portfolio__item, #education ul li {
-  background: #fff;
+  background: #0150ee;
   border-radius: 16px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 30px rgba(51, 210, 242, 0.05);
   transition: transform var(--transition-speed), box-shadow var(--transition-speed);
 }
 
@@ -185,7 +185,7 @@ h2::after {
 
 .gallery__btn:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(168,85,247,0.5);
+  box-shadow: 0 10px 20px rgba(47, 203, 223, 0.99);
 }
 
 /* Education Links */
@@ -196,7 +196,7 @@ h2::after {
 }
 
 #education ul li a:hover {
-  color: #9333ea;
+  color: #33d2ea;
   text-decoration: underline;
 }
 
@@ -208,7 +208,7 @@ h2::after {
 }
 
 #contact a:hover {
-  color: #9333ea;
+  color: #33eaea;
   text-decoration: underline;
 }
 
